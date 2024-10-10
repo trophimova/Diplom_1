@@ -2,25 +2,14 @@ package praktikum;
 
 import org.junit.Before;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.mockito.Mock;
-import org.mockito.junit.MockitoJUnitRunner;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertSame;
 
-@RunWith(MockitoJUnitRunner.class)
 public class BurgerTest {
-  @Mock
   Bun bun;
-
-  @Mock
   Ingredient ingredient1;
-
-  @Mock
   Ingredient ingredient2;
-
-  @Mock
   Ingredient ingredient3;
 
   Burger burger;
